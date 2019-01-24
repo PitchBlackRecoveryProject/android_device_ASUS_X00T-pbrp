@@ -79,3 +79,6 @@ BOARD_SEPOLICY_DIRS += device/asus/X00T/sepolicy
 
 # Set proper platform security patch so TWRP can decrypt /data
 PLATFORM_SECURITY_PATCH := 2018-11-01
+
+# Official
+PB_OFFICIAL := true
