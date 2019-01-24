@@ -21,7 +21,4 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
 
-BOARD_RECOVERY_IMAGE_PREPARE := \
-  sed -i 's/ro.product.name=.*/ro.product.name=WW_X00TD/g' $(TARGET_RECOVERY_ROOT_OUT)/prop.default
-
 endif
