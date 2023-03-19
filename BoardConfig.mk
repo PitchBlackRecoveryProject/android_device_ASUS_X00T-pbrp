@@ -121,3 +121,6 @@ TW_EXCLUDE_TWRPAPP := true
 TWRP_INCLUDE_LOGCAT := true
 # TWRP Debug Flags
 TARGET_USES_LOGD := true
+
+# PBRP Torch
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
